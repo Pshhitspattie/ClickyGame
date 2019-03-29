@@ -1,0 +1,22 @@
+.header{
+	background-color:white;
+	position: relative;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+    padding: 90px 0 20px 0; 
+    font-family: 'ZCOOL XiaoWei', serif;
+
+}
+
+h2{
+	text-align: center;
+	font-size: 25px;
+    padding-bottom: 40px;
+    font-family: 'ZCOOL XiaoWei', serif;
+
+}
