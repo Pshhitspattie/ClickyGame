@@ -4,3 +4,8 @@ body {
   font-family: sans-serif;
   background-color: #4aa27e;
 }
+
+img {
+  height: 250px;
+    width: 325px;
+}

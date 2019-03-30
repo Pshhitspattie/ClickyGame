@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import vines from "./vines.json";
 import "./App.css";
 
+
 //sets state to 0 or empty
 class App extends Component {
   // Setting this.state.cards to the cards json array
@@ -53,12 +54,14 @@ class App extends Component {
           <Jumbotron />
           <div className="wrapper">
           {this.state.vines.map(vines => (
+            
           <Card
           clickCount={this.clickCount}
           id={vines.id}
           name={vines.id}
           image={vines.image}
           />
+          
 
         ))}
         
